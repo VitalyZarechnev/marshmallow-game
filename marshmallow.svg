@@ -1,0 +1,20 @@
+<svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body cylinder -->
+  <rect x="20" y="30" width="60" height="60" rx="30" fill="#f5f0e8"/>
+  <!-- Top cap -->
+  <ellipse cx="50" cy="30" rx="30" ry="12" fill="#fff8f0"/>
+  <!-- Bottom cap -->
+  <ellipse cx="50" cy="90" rx="30" ry="12" fill="#ede5d8"/>
+  <!-- Body overlay -->
+  <rect x="20" y="30" width="60" height="60" rx="30" fill="#fff8f0" opacity="0.5"/>
+  <!-- Left blush -->
+  <circle cx="30" cy="62" r="6" fill="#ffb3ba" opacity="0.5"/>
+  <!-- Right blush -->
+  <circle cx="70" cy="62" r="6" fill="#ffb3ba" opacity="0.5"/>
+  <!-- Left eye -->
+  <circle cx="38" cy="55" r="3" fill="#2c2c2c"/>
+  <!-- Right eye -->
+  <circle cx="62" cy="55" r="3" fill="#2c2c2c"/>
+  <!-- Smile -->
+  <path d="M 42 66 Q 50 72 58 66" stroke="#2c2c2c" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

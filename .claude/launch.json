@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "env": { "PATH": "/Users/developer/.nvm/versions/node/v22.12.0/bin:/usr/bin:/bin" },
+      "runtimeExecutable": "/Users/developer/.nvm/versions/node/v22.12.0/bin/npx",
+      "runtimeArgs": ["vite", "--host"],
+      "port": 5173,
+      "autoPort": false
+    }
+  ]
+}
