@@ -1,4 +1,5 @@
 import { useMemo, useEffect } from "react";
+import * as THREE from "three";
 import { RigidBody, CuboidCollider } from "@react-three/rapier";
 import { mergeGeometries } from "three/addons/utils/BufferGeometryUtils.js";
 import { useGameStore } from "../../stores/GameStore";

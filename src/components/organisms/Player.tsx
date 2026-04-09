@@ -454,7 +454,7 @@ export function Player() {
         burnTimer.current = 0;
         store.finishBurning();
         if (fireGroupRef.current) fireGroupRef.current.visible = false;
-        for (const mat of allBodyMats) {
+        for (const mat of [bodyMatRef.current, topCapMatRef.current, bottomCapMatRef.current]) {
           if (mat) {
             mat.color.copy(bodyOriginalColor);
             mat.emissive.setHex(0x000000);
