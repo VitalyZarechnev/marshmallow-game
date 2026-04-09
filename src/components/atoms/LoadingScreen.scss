@@ -1,0 +1,25 @@
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  z-index: 90;
+
+  &__spinner {
+    width: 96px;
+    height: 96px;
+    animation: loading-screen__spin 1.2s ease-in-out infinite;
+  }
+}
+
+@keyframes loading-screen__spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

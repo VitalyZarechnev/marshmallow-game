@@ -1,0 +1,74 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 110;
+
+  &__card {
+    background: #1a1a2e;
+    border-radius: 16px;
+    padding: 32px 40px;
+    max-width: 400px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 20px;
+    font-size: 28px;
+  }
+
+  &__author {
+    margin: 8px 0;
+    font-size: 20px;
+    opacity: 0.9;
+  }
+
+  &__tech {
+    margin: 16px 0 0;
+    font-size: 14px;
+    opacity: 0.5;
+  }
+
+  &__tech-sub {
+    margin: 4px 0 0;
+    font-size: 13px;
+    opacity: 0.4;
+  }
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 16px;
+  }
+
+  &__label {
+    opacity: 0.8;
+  }
+
+  &__value {
+    font-weight: bold;
+    color: #ffdd44;
+  }
+
+  &__section-title {
+    margin: 20px 0 12px;
+    font-size: 18px;
+    opacity: 0.7;
+    text-align: center;
+  }
+}

@@ -1,0 +1,39 @@
+.button {
+  padding: 14px 48px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  min-width: 220px;
+  margin-bottom: 12px;
+  transition: transform 0.15s, opacity 0.15s;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+
+  &--primary {
+    background: #ffdd44;
+    color: #333;
+  }
+
+  &--secondary {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  &--ghost {
+    background: transparent;
+    color: white;
+    min-width: auto;
+    padding: 10px 32px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+.jump-button {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: auto;
+  touch-action: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
